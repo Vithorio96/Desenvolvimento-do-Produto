@@ -19,7 +19,7 @@ struct DataPacket {
 };
 
 DataPacket data;
-uint8_t macAddress[6] = {0xC0, 0x5D, 0x89, 0xB0, 0x86, 0x18};
+uint8_t macAddress[6] = {0x$$, 0x$$, 0x$$, 0x$$, 0x$$, 0x$$};
 esp_now_peer_info_t peerInfo;
 unsigned long lastAccelTime = 0;
 unsigned long lastTempTime = 0;
